@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "E-commerce Platform",
+        "description": "A full-featured e-commerce platform with product listings, cart functionality, and user accounts. Built with React, Node.js, and MongoDB.",
+        "projectUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 2,
+        "title": "TDS Website",
+        "description": "A collaborative task management application to help teams organize and track their work. Features include drag-and-drop boards and real-time updates.",
+        "projectUrl": "https://tds-alumni.vercel.app",
+        "githubUrl": "https://github.com/Tanmay0215/tds-alumni"
+    },
+    {
+        "id": 3,
+        "title": "Portfolio Website V1",
+        "description": "My previous personal portfolio website, showcasing earlier projects and skills. Designed with a focus on simplicity and performance.",
+        "projectUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "description": "A web application that displays current weather and forecasts for any city using a third-party API. Clean UI and responsive design.",
+        "projectUrl": "#",
+        "githubUrl": "#"
+    }
+]

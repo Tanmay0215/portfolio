@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "title": "E-commerce Platform",
-        "description": "A full-featured e-commerce platform with product listings, cart functionality, and user accounts. Built with React, Node.js, and MongoDB.",
-        "projectUrl": "#",
-        "githubUrl": "#"
+        "title": "Pokeapi",
+        "description": "A web application that fetches and displays data from the PokeAPI. Users can search for Pokémon, view their stats, and learn more about them.",
+        "projectUrl": "https://pokeapi.devtanmay.xyz",
+        "githubUrl": "https://github.com/Tanmay0215/pokeapi"
     },
     {
         "id": 2,

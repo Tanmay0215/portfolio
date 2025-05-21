@@ -1,0 +1,31 @@
+{
+    "name": "Tanmay Gupta",
+    "title": "Aspiring Full Stack Developer",
+    "email": "tanmaygupta.0215@gmail.com",
+    "phone": "+91 6375405568",
+    "location": "Delhi, India",
+    "bio": "A passionate and driven aspiring full-stack developer with a keen interest in creating innovative web solutions. Eager to learn, grow, and contribute to impactful projects.",
+    "socials": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/Tanmay0215",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/tanmay-gupta10",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://x.com/tanman628",
+            "icon": "FaXTwitter"
+        },
+        {
+            "name": "Portfolio",
+            "url": "https://devtanmay.xyz",
+            "icon": "FaGlobe"
+        }
+    ],
+    "resumeUrl": "https://drive.google.com/file/d/1xCfezNg2u2GrET5lpnlu4dV0XGj6tMRV/view?usp=drive_link"
+}

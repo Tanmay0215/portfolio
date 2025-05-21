@@ -19,7 +19,7 @@ const Projects = () => {
       className="py-12 px-4 min-h-screen"
       initial="hidden"
       animate="visible"
-      variants={containerVariants} // Apply container variants for stagger effect
+      variants={containerVariants}
     >
       <h2 className="text-3xl md:text-4xl text-center mb-12 font-bold">My Projects</h2>
       {projectsData.length > 0 ? (

@@ -19,14 +19,9 @@ const cardVariants = {
 };
 
 const ProjectCard = ({ project, index }) => {
-    // Fallback image if imageUrl is not provided or broken
-    const handleError = (e) => {
-        e.target.src = 'https://via.placeholder.com/400x250.png?text=Project+Image'; // Placeholder image
-    };
-
     return (
         <motion.div
-            className="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col"
+            className="bg-gray-800/50 rounded-lg shadow-xl overflow-hidden flex flex-col"
             variants={cardVariants}
             custom={index} // For potential stagger in parent
             initial="hidden"

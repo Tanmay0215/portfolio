@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion as m } from 'motion/react';
-import skillsData from '../data/skills.json';
+import skills from '../data/skills';
 
 
 const pageVariants = {
@@ -66,7 +66,7 @@ const Skills = () => {
                 variants={gridContainerVariants}
                 className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 md:gap-8 max-w-6xl mx-auto"
             >
-                {skillsData.map((skill, index) => (
+                {skills.map((skill, index) => (
                     <m.a
                         key={skill.name}
                         href={skill.link}

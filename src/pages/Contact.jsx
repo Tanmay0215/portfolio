@@ -1,66 +1,69 @@
 import React from 'react';
 import personalData from '../data/personal.json';
-import { motion } from 'motion/react';
 import { FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className="max-w-2xl mx-auto p-5 min-h-screen pt-24 md:pt-28"
-        >
-            <motion.h1
-                initial={{ y: -20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.7, delay: 0.2 }}
-                className="text-center text-3xl md:text-4xl font-bold mb-10"
-            >
-                Contact Me
-            </motion.h1>
+        <div className="mx-auto p-5 min-h-screen py-10 md:py-20 bg-gradient-to-br from-black/30 via-gray-900 to-gray-800">
+            <h1 className="text-center text-3xl md:text-5xl font-bold mb-10 text-gray-100 text-shadow-2xl">
+                Contact <span className="text-gray-400">Me</span>
+            </h1>
 
-            <motion.div
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                className="mb-10 p-6 bg-gray-800 rounded-lg shadow-xl text-center"
-            >
+            <div className="max-w-3xl mx-auto mb-10 p-6 bg-gray-800/50 rounded-lg shadow-xl text-center">
                 <p className="text-gray-300 mb-2">
                     Feel free to reach out! You can email me directly at:
                 </p>
                 <a
                     href={`mailto:${personalData.email}`}
-                    className="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors duration-300"
+                    className="text-gray-400 hover:text-gray-200 text-lg font-medium transition-colors duration-300"
                 >
                     <FaEnvelope className="inline-block mr-2" />
                     {personalData.email}
                 </a>
-            </motion.div>
+            </div>
 
-            <motion.form
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.7, delay: 0.4 }}
-                className="space-y-5"
-            >
+            <form className="max-w-3xl mx-auto space-y-5">
                 <div>
                     <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-300">Name:</label>
-                    <input type="text" id="name" name="name" required className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400" placeholder="Your Name" />
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 placeholder-gray-400"
+                        placeholder="Your Name"
+                    />
                 </div>
                 <div>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">Email:</label>
-                    <input type="email" id="email" name="email" required className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400" placeholder="Your Email" />
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 placeholder-gray-400"
+                        placeholder="Your Email"
+                    />
                 </div>
                 <div>
                     <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-300">Message:</label>
-                    <textarea id="message" name="message" rows="5" required className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400" placeholder="Your Message"></textarea>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                        className="w-full p-2.5 bg-gray-700/20 border border-gray-600 text-gray-200 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 placeholder-gray-400"
+                        placeholder="Your Message"
+                    ></textarea>
                 </div>
-                <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-5 rounded-md cursor-pointer border-none transition-colors duration-300 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                <button
+                    type="submit"
+                    className="w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-5 rounded-md cursor-pointer border-none transition-colors duration-300 text-base focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+                >
                     Send Message
                 </button>
-            </motion.form>
-        </motion.div>
+            </form>
+        </div>
     );
 };
 

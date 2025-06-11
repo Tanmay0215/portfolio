@@ -4,7 +4,7 @@ import { FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <div className="mx-auto p-5 min-h-screen py-10 md:py-20 bg-gradient-to-br from-black/30 via-gray-900 to-gray-800">
+        <div className="mx-auto p-5 min-h-screen py-10 md:py-20">
             <h1 className="text-center text-3xl md:text-5xl font-bold mb-10 text-gray-100 text-shadow-2xl">
                 Contact <span className="text-gray-400">Me</span>
             </h1>

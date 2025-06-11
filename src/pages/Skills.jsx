@@ -4,7 +4,7 @@ import skills from '../data/skills';
 
 const Skills = () => {
     return (
-        <div className="py-20 px-4 min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-gray-100">
+        <div className="py-20 px-4 min-h-screen text-gray-100">
             <h2 className="text-4xl md:text-5xl text-center mb-16 font-extrabold tracking-tight">
                 My <span className="text-gray-400">Skills</span>
             </h2>

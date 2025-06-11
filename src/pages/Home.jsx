@@ -4,7 +4,7 @@ import Socials from '../components/Socials';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center text-center p-4 pt-20 md:pt-4 bg-gradient-to-br from-black via-gray-900 to-gray-800">
+    <div className="min-h-screen flex flex-col justify-center items-center text-center p-4 pt-20 md:pt-4">
       <div className="max-w-3xl">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-100">
           Hi, I am <br />{' '}

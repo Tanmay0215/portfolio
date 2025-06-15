@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaGlobe } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import personalData from '../data/personal.json';
 
@@ -8,7 +8,6 @@ const iconMap = {
     FaXTwitter,
     FaGithub,
     FaEnvelope,
-    FaGlobe
 };
 
 const Socials = () => {

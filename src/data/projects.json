@@ -15,16 +15,9 @@
     },
     {
         "id": 3,
-        "title": "Portfolio Website V1",
-        "description": "My previous personal portfolio website, showcasing earlier projects and skills. Designed with a focus on simplicity and performance.",
+        "title": "NFT-Based Ticketing Platform",
+        "description": "A blockchain-powered platform to buy, sell, and manage event tickets as NFTs.",
         "projectUrl": "#",
-        "githubUrl": "#"
-    },
-    {
-        "id": 4,
-        "title": "Weather Dashboard",
-        "description": "A web application that displays current weather and forecasts for any city using a third-party API. Clean UI and responsive design.",
-        "projectUrl": "#",
-        "githubUrl": "#"
+        "githubUrl": "https://github.com/Tanmay0215/Ticketing-web3"
     }
 ]

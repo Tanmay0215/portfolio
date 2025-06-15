@@ -3,7 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="bg-gray-800/50 rounded-lg shadow-xl overflow-hidden flex flex-col hover:shadow-gray-700/30 hover:scale-105 transition-all duration-300">
+        <div className="backdrop-blur-sm bg-gray-900/30 border border-gray-700/50 rounded-lg shadow-xl overflow-hidden flex flex-col hover:shadow-gray-500/30 hover:scale-105 hover:bg-gray-800/40 transition-all duration-300">
             <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-2xl font-semibold text-gray-300 mb-3">{project.title}</h3>
                 <p className="text-gray-400 text-sm mb-4 flex-grow">{project.description}</p>

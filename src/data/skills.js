@@ -9,6 +9,9 @@ import express from "../assets/svgs/express.svg";
 import mongodb from "../assets/svgs/mongodb.svg";
 import docker from "../assets/svgs/docker.svg";
 import postgres from "../assets/svgs/postgres.svg";
+import typescript from "../assets/svgs/typescript.svg";
+import postman from "../assets/svgs/postman.svg";
+import { SiPostman } from "react-icons/si";
 
 const skills = [
     {
@@ -65,23 +68,17 @@ const skills = [
         name: "PostgreSQL",
         image: postgres,
         link: "https://www.postgresql.org/"
+    },
+    {
+        name: "TypeScript",
+        image: typescript,
+        link: "https://www.typescriptlang.org/"
+    },
+    {
+        name: "Postman",
+        image: postman,
+        link: "https://www.postman.com/",
     }
-    // Add other skills here if needed, e.g.:
-    // {
-    //     name: "Git",
-    //     image: git,
-    //     link: "https://git-scm.com/"
-    // },
-    // {
-    //     name: "HTML",
-    //     image: html,
-    //     link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
-    // },
-    // {
-    //     name: "CSS",
-    //     image: css,
-    //     link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-    // }
 ];
 
 export default skills;

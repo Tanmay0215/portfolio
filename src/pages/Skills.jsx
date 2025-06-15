@@ -16,7 +16,7 @@ const Skills = () => {
                         href={skill.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gray-800/60 backdrop-blur-sm p-4 sm:p-6 rounded-xl shadow-lg border border-gray-700/40 transition-all duration-300 flex flex-col items-center justify-center aspect-square no-underline hover:scale-105 hover:shadow-gray-500/30"
+                        className="bg-gray-900/30 hover:bg-gray-700/30 backdrop-blur-sm p-4 sm:p-6 rounded-xl shadow-lg border border-gray-700/70 transition-all duration-300 flex flex-col items-center justify-center aspect-square no-underline hover:scale-105 hover:shadow-gray-500/30"
                     >
                         {skill.image && (
                             <img

@@ -9,76 +9,71 @@ import express from "../assets/svgs/express.svg";
 import mongodb from "../assets/svgs/mongodb.svg";
 import docker from "../assets/svgs/docker.svg";
 import postgres from "../assets/svgs/postgres.svg";
-import typescript from "../assets/svgs/typescript.svg";
-import postman from "../assets/svgs/postman.svg";
-import { SiPostman } from "react-icons/si";
 
-const skills = [
-    {
-        name: "React",
-        image: react,
-        link: "https://react.dev/"
-    },
-    {
-        name: "Next.js",
-        image: nextjs,
-        link: "https://nextjs.org/"
-    },
-    {
-        name: "JavaScript",
-        image: js,
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {
-        name: "Python",
-        image: python,
-        link: "https://www.python.org/"
-    },
-    {
-        name: "Node.js",
-        image: nodejs,
-        link: "https://nodejs.org/"
-    },
-    {
-        name: "Tailwind CSS",
-        image: tailwindcss,
-        link: "https://tailwindcss.com/"
-    },
-    {
-        name: "FastAPI",
-        image: fastapi,
-        link: "https://fastapi.tiangolo.com/"
-    },
-    {
-        name: "Express JS",
-        image: express,
-        link: "https://expressjs.com/"
-    },
-    {
-        name: "MongoDB",
-        image: mongodb,
-        link: "https://www.mongodb.com/"
-    },
-    {
-        name: "Docker",
-        image: docker,
-        link: "https://www.docker.com/"
-    },
-    {
-        name: "PostgreSQL",
-        image: postgres,
-        link: "https://www.postgresql.org/"
-    },
-    {
-        name: "TypeScript",
-        image: typescript,
-        link: "https://www.typescriptlang.org/"
-    },
-    {
-        name: "Postman",
-        image: postman,
-        link: "https://www.postman.com/",
-    }
-];
+const skillsByCategory = {
+    "Languages": [
+        {
+            name: "JavaScript",
+            image: js,
+            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            name: "Python",
+            image: python,
+            link: "https://www.python.org/"
+        }
+    ],
+    "Frameworks": [
+        {
+            name: "React",
+            image: react,
+            link: "https://react.dev/"
+        },
+        {
+            name: "Next.js",
+            image: nextjs,
+            link: "https://nextjs.org/"
+        },
+        {
+            name: "FastAPI",
+            image: fastapi,
+            link: "https://fastapi.tiangolo.com/"
+        },
+        {
+            name: "Express JS",
+            image: express,
+            link: "https://expressjs.com/"
+        }
+    ],
+    "Tools & Technologies": [
+        {
+            name: "Node.js",
+            image: nodejs,
+            link: "https://nodejs.org/"
+        },
+        {
+            name: "Tailwind CSS",
+            image: tailwindcss,
+            link: "https://tailwindcss.com/"
+        },
+        {
+            name: "Docker",
+            image: docker,
+            link: "https://www.docker.com/"
+        }
+    ],
+    "Databases": [
+        {
+            name: "MongoDB",
+            image: mongodb,
+            link: "https://www.mongodb.com/"
+        },
+        {
+            name: "PostgreSQL",
+            image: postgres,
+            link: "https://www.postgresql.org/"
+        }
+    ]
+};
 
-export default skills;
+export default skillsByCategory;
